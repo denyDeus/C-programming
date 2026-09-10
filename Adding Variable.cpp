@@ -2,9 +2,8 @@
 
 int main() {
 	
-	int x = 5;
-	int y = 6;
-	int sum = x + y;
+	int x, y, z;
+	x = y = z = 50;
 	
-	printf("%d", sum);
+	printf("%d", x + y + z);
 }
