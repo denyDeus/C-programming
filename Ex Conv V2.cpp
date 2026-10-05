@@ -6,5 +6,5 @@ int main() {
 	int num2 = 2;
 	float sum = (float) num1 / num2;
 	
-	printf("%f", sum);
+	printf("%.1f", sum);
 }
