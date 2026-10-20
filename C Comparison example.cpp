@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
-	int age = 18;
+	int isLoggedIn = 1;
+	int isAdmin = 0;
 	
-	printf("%d\n", age >= 18);
-	printf("%d\n", age < 18);
+	printf("Regular user: %d\n", isLoggedIn && !isAdmin);
+	printf("Has access: %d\n", isLoggedIn || isAdmin);
+	printf("Not logged in: %d\n", !isLoggedIn);
 }
