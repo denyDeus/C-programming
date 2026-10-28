@@ -2,31 +2,20 @@
 
 int main () {
 	
-	int day = 4;
+	int day = 2;
 	
 	switch (day) {
 		case 1:
-			printf("Monday");
+			printf("Monday\n");
 			break;
 		case 2:
-			printf("Tuesday");
-			break;
+			printf("Tuesday\n");
 		case 3:
-			printf("Wednseday");
+			printf("Wednseday\n");
 			break;
 		case 4:
-			printf("Thursday");
-			break;
-		case 5:
-			printf("Friday");
-			break;
-		case 6:
-			printf("Saturday");
-			break;
-		case 7:
-			printf("Sunday");
+			printf("Thursday\n");
 			break;
 	}
-	
 	return 0;
 }
